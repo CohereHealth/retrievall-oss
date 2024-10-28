@@ -7,13 +7,11 @@ welcomes contributions in the form of bug reports, feature requests, and pull re
 Here are some important resources for contributors:
 
 - [Source Code]
-- [Documentation]
 - [Issue Tracker]
 - [Code of Conduct]
 
 [MIT License]: https://opensource.org/licenses/MIT
 [Source Code]: https://github.com/CohereHealth/retrievall-oss
-[Documentation]: https://retrievall.readthedocs.io/
 [Issue Tracker]: https://github.com/CohereHealth/retrievall-oss/issues
 [Code of Conduct]: CODE_OF_CONDUCT.md
 
@@ -37,7 +35,7 @@ Request features on the [Issue Tracker].
 
 ## Setting up your development environment
 
-You need Python 3.7+ and a virtual environment manager like [venv] or [virtualenv].
+You need Python 3.10+ and a virtual environment manager like [venv] or [virtualenv].
 
 1. Fork the repository on GitHub.
 2. Clone your fork to your local machine.
@@ -59,6 +57,8 @@ $ pytest
 Unit tests are located in the `tests/` directory.
 
 [pytest]: https://docs.pytest.org/
+[venv]: https://docs.python.org/3/library/venv.html
+[virtualenv]: https://virtualenv.pypa.io/en/latest/
 
 ## How to submit changes
 
@@ -70,10 +70,11 @@ Unit tests are located in the `tests/` directory.
 Before submitting a pull request, please make sure:
 
 - All tests pass.
-- Your code follows the existing style (we use [Black] for code formatting).
+- Your code follows the existing style (we use [Ruff] for code formatting; you can use [pre-commit] to ensure your code is compliant).
 - Your changes are covered by tests.
 - Any new features or changes to existing functionality are documented.
 
 We recommend opening an issue to discuss your proposed changes before starting work on a pull request. This allows us to provide guidance and feedback.
 
-[Black]: https://black.readthedocs.io/
+[Ruff]: https://black.readthedocs.io/](https://docs.astral.sh/ruff/
+[pre-commit]: https://pre-commit.com/

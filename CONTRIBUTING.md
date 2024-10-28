@@ -12,9 +12,9 @@ Here are some important resources for contributors:
 - [Code of Conduct]
 
 [MIT License]: https://opensource.org/licenses/MIT
-[Source Code]: https://github.com/CohereHealth/retrievall
+[Source Code]: https://github.com/CohereHealth/retrievall-oss
 [Documentation]: https://retrievall.readthedocs.io/
-[Issue Tracker]: https://github.com/CohereHealth/retrievall/issues
+[Issue Tracker]: https://github.com/CohereHealth/retrievall-oss/issues
 [Code of Conduct]: CODE_OF_CONDUCT.md
 
 ## How to report a bug

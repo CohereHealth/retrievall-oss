@@ -4,9 +4,12 @@ Retrievall ("retrieve all") is a general framework for retrieval tasks. It aims 
 ## Installation
 Retrievall comes with a set of basic components and features. For leanness and extensability, more specialized components are separated out into extension modules.
 
-Retrievall can be installed from PyPI:
+Retrievall can be installed from its GitHub source via pip
 ```
-pip install retrievall
+# In a dependency list
+retrievall @ git+ssh://git@github.com/CohereHealth/retrievall-oss
+# From the command line
+pip install git+ssh://git@github.com/CohereHealth/retrievall-oss
 
 ```
 
@@ -14,7 +17,7 @@ pip install retrievall
 ### Extension modules
 Extension module dependencies can be installed using install [extra options](https://packaging.python.org/en/latest/specifications/dependency-specifiers/#extras):
 ```
-pip install retrievall[sparsetext]
+pip install retrievall-oss[sparsetext]
 
 ```
 

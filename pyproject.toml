@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=64", "setuptools_scm>=8"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["retrievall"]
+package-dir = {"retrievall" = "src"}
+
+[tool.setuptools_scm]
+# For automatic versioning. See https://github.com/pypa/setuptools_scm
+
+[project]
+name = "retrievall"
+dynamic = ["version"]
+authors = [
+    {name = "Cohere Health", email = "machinelearning@coherehealth.com"},
+]
+description = "A generalized retrieval framework."
+requires-python = ">=3.10"
+
+# These are *core* dependencies, and should be kept as slim as possible
+dependencies = [
+    "pyarrow >= 14.0.0",
+    "polars >= 1.1.0", # For simplifying data wrangling. Might want ibis in the future
+]
+
+[project.optional-dependencies]
+dev = [
+    "retrievall[sparsetext,ocr]",
+    "pytest >= 8.0",
+    "pre-commit >= 3.8.0",
+    "ipykernel >= 6.29",
+]
+sparsetext = [
+    "scikit-learn >= 1.5.0",
+]
+ocr = []

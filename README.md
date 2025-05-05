@@ -2,7 +2,7 @@
 Retrievall ("retrieve all") is a general framework for retrieval tasks. It aims to let you retrieve whatever you want from anything you want however you want to.
 
 ## Installation
-Retrievall comes with a set of basic components and features. For leanness and extensability, more specialized components are separated out into extension modules.
+Retrievall comes with a set of basic components and features. For leanness and extensibility, more specialized components are separated out into extension modules.
 
 Retrievall can be installed from its GitHub source via pip
 ```
@@ -95,4 +95,4 @@ We welcome contributions to Retrievall! Please see our contributing guidelines f
 Retrievall is open-source software licensed under the MIT license.
 
 ## Support
-For questions, feature requests or bug reports, please open an issue on GitHub o
+For questions, feature requests or bug reports, please open an issue on this Github repo. 

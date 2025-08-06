@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This repository was put together for demonstration purposes, and might not be actively updated!
+
 # 🎣 Retrievall
 Retrievall ("retrieve all") is a general framework for retrieval tasks. It aims to let you retrieve whatever you want from anything you want however you want to.
 
